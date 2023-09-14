@@ -1,0 +1,12 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'style.css' %}">
+<h1 class="head">
+    WORD CALCULATOR
+</h1>
+<div class="form-container">
+<form action="counter" method="POST">
+    {% csrf_token %}
+<textarea name="text" class="area" cols="100" rows="25"></textarea><br>
+<input type="submit" class="button">
+</form>
+</div>

@@ -1,0 +1,38 @@
+*{
+    background-color: rgba(33, 255, 181, 0.691);
+}
+.head{
+    text-align: center;
+}
+.button{
+    margin-top: 1rem;
+    text-align: center;
+    height: 3rem;
+    width: 4rem;
+    border-radius: 10px;
+    background-color: rgba(0, 85, 57, 0.691);
+}
+.area{
+    background-color: white;
+    border-radius: 12px;
+}
+.form-container {
+    text-align: center; /* Center the contents horizontally */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 7rem; 
+  }
+  
+  form {
+    width: 50%; /* adjust this value to control the form's width */
+  }
+  .word{
+    text-align: center;
+  }
+  .total{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 150px;
+    margin-top: 15rem;
+  }
